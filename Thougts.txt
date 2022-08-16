@@ -2,6 +2,9 @@ The boards should be an object so we can just create two boards, one per person.
 You also mentioned maybe doing the odd boats like the 6 length and the Y and L ones.
 If we want to get crazy with it we could consider having more than 2 players but that could get weird.
   We should go over what those weird pieces are and if we want to implement like the powers or other stuff.
+  
+Personally I want to try learning how to use logger, idk if you do use it but it seems super handy on a project where we are going to have multiple classes.
+  I mean it just seems good to have on projects in general vs one off code.
 
 We should consider if we want both boards visible and if so in what capacity, we could use an board made of -, +, and | or we could just have it be text based.
 Text based with the ability to display boards might be more fun, but having it just be text based could allow 2 human players.
