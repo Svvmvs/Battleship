@@ -3,12 +3,19 @@ You also mentioned maybe doing the odd boats like the 6 length and the Y and L o
 If we want to get crazy with it we could consider having more than 2 players but that could get weird.
   We should go over what those weird pieces are and if we want to implement like the powers or other stuff.
   
+I've never used github in this context, so should we just start branches whenever we begin a new segment of the code and then once we think we are done we can go over and then commit them together? I don't think that's too much of a hassle but I mean I haven't done it yet, that opinion may change.
+
 Personally I want to try learning how to use logger, idk if you do use it but it seems super handy on a project where we are going to have multiple classes.
   I mean it just seems good to have on projects in general vs one off code.
 
 We should consider if we want both boards visible and if so in what capacity, we could use an board made of -, +, and | or we could just have it be text based.
 Text based with the ability to display boards might be more fun, but having it just be text based could allow 2 human players.
   If we had two human players and text based the two humans would just have to look away while the other places their ships.
+  
+Ai will fire randomly, the only issue there could be making sure it doesn't hit spots its already seen but thats obvious.
+
+How do we want to label the board? We could have it be a list or something or a list of lists or each space is its own variable.
+As above but with boats.
   
 Do we want internet capabilities? Honesly I don't want to screw around figuring out how to do it online, but I suppose if we wanted to we could.
 
@@ -33,5 +40,4 @@ As far as displaying boards, when I say with +,- and |, I mean like this:
 ---+---+---+---+---+---+---+---+---+---
    |   |   |   |   |   |   |   |   |   
 
-It's definately not perfect, nor a square, but it is a string, or at worst a list of strings.
-I don't usually mess with images or displaying things that aren't on a keyboard, and have never tried it in python, but it is worth looking into.
+It's definately not perfect, nor a square, but it is a string, or at worst a list of strings. I don't usually mess with images or displaying things that aren't on a keyboard, and have never tried it in python, but it is worth looking into.
