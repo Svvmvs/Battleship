@@ -11,16 +11,16 @@ logging.basicConfig(filename="logging_spot1.txt", filemode='w', datefmt='%H:%M:%
 class board1(object):
     def __init__(self, name):
         self.name = name
-        self.A = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.B = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.C = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.D = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.E = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.F = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.G = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.H = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.I = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        self.J = [-100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.A = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.B = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.C = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.D = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.E = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.F = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.G = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.H = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.I = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.J = [None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 class board2(object):
     def __init__(self, name):
